@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, HStack, Stack, Text  , useColorModeValue} from '@chakra-ui/react'
+import { Box, Grid, GridItem, HStack, Text  , useColorModeValue} from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 

@@ -3,7 +3,6 @@ import {
     Flex,
     Box,
     Heading,
-    Text,
     IconButton,
     Button,
     VStack,
@@ -18,13 +17,10 @@ import {
     Textarea,
   } from '@chakra-ui/react';
   import {
-    MdPhone,
     MdEmail,
-    MdLocationOn,
  
 } from 'react-icons/md';
 import {
-    FaFacebook,
     FaInstagram,
     FaLinkedin,
   } from 'react-icons/fa';

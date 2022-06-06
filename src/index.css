@@ -1,0 +1,17 @@
+.border {
+border :   1px solid red
+}
+p ,h2{
+    font-family: 'Cinzel', serif;
+}
+
+h3{
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color: #F2F2F2 !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500&display=swap');

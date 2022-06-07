@@ -15,7 +15,6 @@ import {
     InputGroup,
     InputLeftElement,
     Textarea,
-    Link,
   } from '@chakra-ui/react';
   import {
     MdEmail,
@@ -62,7 +61,7 @@ import {
                       spacing={5}
                       px={5}
                                         alignItems="flex-start">
-                    <Link  href='https://www.instagram.com/krisvanco/?utm_medium=copy_link'>
+                    <a  href='https://www.instagram.com/krisvanco/?utm_medium=copy_link'>
                       <IconButton
                         aria-label="instagram"
                         variant="ghost"
@@ -72,17 +71,17 @@ import {
                          _hover={{ bg: '#0D74FF' }}
                         icon={<FaInstagram size="28px"                                  href='https://www.instagram.com/krisvanco/?utm_medium=copy_link'
                         />}
-                                            /></Link>
-                                        <Link   href={'linkedin.com/in/kristina-vancova-2b7b7613a'}>
+                                            /></a>
+                                        <a   href='https://linkedin.com/in/kristina-vancova-2b7b7613a'>
                       <IconButton
                         aria-label="linkedin"
                         variant="ghost"
                                             size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
-                        icon={<FaLinkedin size="28px"           
+                        icon={<FaLinkedin size="28px"   href='https://linkedin.com/in/kristina-vancova-2b7b7613a'         
                         />}
-                      /></Link>
+                      /></a>
                     </HStack>
                   </Box>
                 </WrapItem>

@@ -1,7 +1,7 @@
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { Box, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerOverlay, Grid, GridItem, HStack, Stack, Text  , useColorModeValue, useDisclosure} from '@chakra-ui/react'
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()

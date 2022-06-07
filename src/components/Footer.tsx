@@ -59,10 +59,10 @@ import {
           align={{ base: 'center', md: 'center' }}>
           <Text>© 2022 Kristina Vancova</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
+            <SocialButton label={'Linkedn'} href={'https://linkedin.com/in/kristina-vancova-2b7b7613a'}>
               <FaLinkedin />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/krisvanco/?utm_medium=copy_link'}>
               <FaInstagram />
             </SocialButton>
           </Stack>

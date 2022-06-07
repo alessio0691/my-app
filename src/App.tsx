@@ -5,7 +5,6 @@ import {
   
 } from "@chakra-ui/react"
 import Layout from "./Layout"
-import { Work } from "./pages/WorkPage"
 import { Routes, Route } from "react-router-dom"
 import ProjectPage from "./pages/ProjectPage"
 import AboutPage from "./pages/AboutPage"

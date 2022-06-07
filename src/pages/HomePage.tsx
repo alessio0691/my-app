@@ -40,7 +40,7 @@ function HomePage() {
 
           </Box> */}
 
-          <Box>
+          <Box display={{base : 'none' , md: 'block'}}>
               <Grid templateColumns={'repeat(16, 1fr)'} gap={'20px'}>
                   <GridItem colStart={2} colEnd={11} >
                       

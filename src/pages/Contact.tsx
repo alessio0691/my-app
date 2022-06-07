@@ -17,12 +17,12 @@ import {
     Textarea,
   } from '@chakra-ui/react';
   import {
-    MdEmail,
+  MdEmail,
  
 } from 'react-icons/md';
 import {
     FaInstagram,
-    FaLinkedin,
+  FaLinkedin,
   } from 'react-icons/fa';
   import {BsPerson } from 'react-icons/bs';
   
@@ -113,10 +113,10 @@ import {
                         <FormControl id="name" float="right">
                           <Button
                             variant="solid"
-                            bg="#0D74FF"
+                            bg="black"
                             color="white"
                             _hover={{}}>
-                            Send Message
+                           <p> Send Message</p>
                           </Button>
                         </FormControl>
                       </VStack>

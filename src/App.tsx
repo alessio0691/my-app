@@ -23,12 +23,11 @@ export const App = () => (
     <Layout>
       <Routes>
         <Route   path="/" element={<HomePage/>} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/project" element={<ProjectPage />} />
-        <Route path="/commerce" element={<Ecommerce />} />
-        <Route path="/project/project2" element={<ProjectTwo />} />
-        <Route path="/project/project1" element={<ProjectOne />} />
-        <Route path="/project/project3" element={<ProjectThree />} />
+        <Route path="/work" element={<ProjectPage />} />
+        <Route path="/work/commerce" element={<Ecommerce />} />
+        <Route path="/work/project2" element={<ProjectTwo />} />
+        <Route path="/work/project1" element={<ProjectOne />} />
+        <Route path="/work/project3" element={<ProjectThree />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

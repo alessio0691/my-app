@@ -46,7 +46,7 @@ function HomePage() {
                   <GridItem colStart={4} colEnd={4}>
                       <Image width={'300px'} src='https://i.postimg.cc/Kc9G9JHB/img-1.jpg' />
                   </GridItem>
-                  <GridItem colStart={2} colEnd={5}>
+                  <GridItem paddingTop={5} colStart={2} colEnd={5}>
                       <Image width={'600px'} src='https://i.postimg.cc/1tSbKf7Z/POLIMODA-TREVES-10-06-21-1593-840.jpg' />
                   </GridItem>
                   <GridItem colStart={2} colEnd={2}>
@@ -55,7 +55,7 @@ function HomePage() {
                   <GridItem colStart={4} colEnd={4}>
                       <Image width={'300px'} src='https://i.postimg.cc/hP4cB3rq/Post-per-Instagram-1.png' />
                   </GridItem>
-                  <GridItem colStart={2} colEnd={5}>
+                  <GridItem paddingTop={5} colStart={2} colEnd={5}>
                       <Image width={'600px'} src='https://i.postimg.cc/QdpvRR5L/9.jpg' />
                   </GridItem>
                   

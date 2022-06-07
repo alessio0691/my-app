@@ -42,7 +42,8 @@ import {
                   <Box>
                     <Heading paddingLeft={3} as={'h1'}>Contact</Heading>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                      <VStack pl={0} spacing={3} alignItems="flex-start">
+                                        <VStack pl={0} spacing={3} alignItems="flex-start">
+                                            <a href="mailto:kris.vancova@gmail.com">
                                             <Button
                                                 as={'p'}
                           size="md"
@@ -53,7 +54,7 @@ import {
                           _hover={{ border: '2px solid #1C6FEB' }}
                           leftIcon={<MdEmail color="#1970F1" size="20px" />}>
                           kristinaVancova@gmail.com
-                        </Button>
+                        </Button></a>
                       </VStack>
                     </Box>
                     <HStack

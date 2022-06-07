@@ -1,5 +1,6 @@
-import { Box, Grid, GridItem, Image } from '@chakra-ui/react'
+import { Box, Grid, GridItem, Image, AspectRatio} from '@chakra-ui/react'
 import React from 'react'
+
 
 function HomePage() {
   return (
@@ -42,26 +43,29 @@ function HomePage() {
           <Box>
               <Grid templateColumns={'repeat(16, 1fr)'} gap={'20px'}>
                   <GridItem colStart={2} colEnd={11} >
-                  <Image width={'500px'} src='https://i.postimg.cc/pTXNQqpw/16.jpg' />
+                      
+                          <Image src='https://i.postimg.cc/pTXNQqpw/16.jpg' />
                   </GridItem>
                   <GridItem colStart={11} colEnd={14}>
-                      <Image paddingBottom={5} width={'240px'} src='https://i.postimg.cc/QdpvRR5L/9.jpg' />
+                      <AspectRatio ratio={2/3}>
+                          <Image paddingBottom={5} src='https://i.postimg.cc/QdpvRR5L/9.jpg' /></AspectRatio>
+                      <AspectRatio ratio={2/3}>
                       <Image width={'240px'} src='https://i.postimg.cc/QdpvRR5L/9.jpg' />
-
+</AspectRatio>
                   </GridItem>
-                  <GridItem colStart={2} colEnd={10} >
-                  <Image paddingBottom={5} width={'240px'} src='https://i.postimg.cc/wBFZ6bJk/img-9.jpg' />
-                      <Image width={'240px'} src='https://i.postimg.cc/LXCcV08s/img-6.jpg' />
+                  <GridItem colStart={4} colEnd={10} >
+                          <Image paddingBottom={5} w={'240px'} src='https://i.postimg.cc/wBFZ6bJk/img-9.jpg' />
+                      <Image  w={'240px'}  src='https://i.postimg.cc/LXCcV08s/img-6.jpg' />
                   </GridItem>
                   <GridItem colStart={10} colEnd={16}>
  <Image width={'500px'} src='https://i.postimg.cc/Kc9G9JHB/img-1.jpg' />
                   </GridItem>
                   <GridItem colStart={2} colEnd={11} >
-                  <Image width={'500px'} src='https://i.postimg.cc/1tSbKf7Z/POLIMODA-TREVES-10-06-21-1593-840.jpg' />
+                  <Image  src='https://i.postimg.cc/1tSbKf7Z/POLIMODA-TREVES-10-06-21-1593-840.jpg' />
                   </GridItem>
                   <GridItem colStart={11} colEnd={14}>
                       <Image paddingBottom={5} width={'240px'} src='https://i.postimg.cc/cJdPGNKH/img-13.jpg' />
-                      <Image width={'240px'} src='https://i.postimg.cc/hP4cB3rq/Post-per-Instagram-1.png' />
+                      <Image  src='https://i.postimg.cc/hP4cB3rq/Post-per-Instagram-1.png' />
 
                   </GridItem>
            

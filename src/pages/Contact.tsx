@@ -62,20 +62,23 @@ import {
                       px={5}
                       alignItems="flex-start">
                       <IconButton
-                        aria-label="github"
+                        aria-label="instagram"
                         variant="ghost"
                         size="lg"
-                        isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
-                        icon={<FaInstagram size="28px" />}
+                                            isRound={true}
+                    
+                         _hover={{ bg: '#0D74FF' }}
+                        icon={<FaInstagram size="28px"                                  href='https://www.instagram.com/krisvanco/?utm_medium=copy_link'
+                        />}
                       />
                       <IconButton
-                        aria-label="discord"
+                        aria-label="linkedin"
                         variant="ghost"
-                        size="lg"
+                                            size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
-                        icon={<FaLinkedin size="28px" />}
+                        icon={<FaLinkedin size="28px"                 href={'linkedin.com/in/kristina-vancova-2b7b7613a'}
+                        />}
                       />
                     </HStack>
                   </Box>

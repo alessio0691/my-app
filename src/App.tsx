@@ -22,7 +22,7 @@ export const App = () => (
   <ChakraProvider theme={theme}>
     <Layout>
       <Routes>
-        <Route path="/" element={<HomePage/>} />
+        <Route   path="/" element={<HomePage/>} />
         <Route path="/work" element={<Work />} />
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/commerce" element={<Ecommerce />} />

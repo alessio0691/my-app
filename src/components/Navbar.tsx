@@ -1,11 +1,10 @@
 import { HamburgerIcon } from '@chakra-ui/icons'
-import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Grid, GridItem, HStack, Input, Stack, Text  , useColorModeValue, useDisclosure} from '@chakra-ui/react'
+import { Box, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerOverlay, Grid, GridItem, HStack, Stack, Text  , useColorModeValue, useDisclosure} from '@chakra-ui/react'
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const btnRef = React.useRef()
   return (
     <>
     <Box  display={{base : 'none' , md : 'block'} }  bg={useColorModeValue('gray.50', 'gray.900')} >
@@ -14,16 +13,24 @@ export const Navbar = () => {
         <GridItem rowSpan={1} colSpan={1} colStart={4} colEnd={6}>
           <HStack justify="space-between" display="flex">
           <Box>
-            <Link to="/"><p>Home</p> </Link>
+            <NavLink    style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/"><p>Home</p> </NavLink>
             </Box>
             <Box>
-            <Link to="/work"><p>Work</p> </Link>
+            <NavLink  style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/work"><p>Work</p> </NavLink>
             </Box>
             <Box>
-            <Link to="/about"><p>About</p> </Link>
+            <NavLink style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/about"><p>About</p> </NavLink>
             </Box>
             <Box>
-            <Link to="/contact"><p>Contact</p> </Link>
+            <NavLink style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })}to="/contact"><p>Contact</p> </NavLink>
             </Box>
         </HStack>
         </GridItem>
@@ -44,16 +51,24 @@ export const Navbar = () => {
             <DrawerBody>
             <Stack spacing={8} marginTop={10} display="flex">
           <Box>
-            <Link to="/"><p>Home</p> </Link>
+            <NavLink style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/"><p>Home</p> </NavLink>
             </Box>
             <Box>
-            <Link to="/work"><p>Work</p> </Link>
+            <NavLink style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/work"><p>Work</p> </NavLink>
             </Box>
             <Box>
-            <Link to="/about"><p>About</p> </Link>
+            <NavLink style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/about"><p>About</p> </NavLink>
             </Box>
             <Box>
-            <Link to="/contact"><p>Contact</p> </Link>
+            <NavLink style={isActive => ({
+              color: isActive ? "#146194" : "black"
+            })} to="/contact"><p>Contact</p> </NavLink>
             </Box>
         </Stack>
           </DrawerBody>

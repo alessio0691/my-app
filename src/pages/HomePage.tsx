@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, Image, AspectRatio } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 import React from "react";
 
 function HomePage() {

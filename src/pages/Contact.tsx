@@ -70,7 +70,7 @@ export default function Contact() {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: "#0D74FF" }}
+                        _hover={{ bg: "white" }}
                         icon={
                           <FaInstagram
                             size="28px"
@@ -85,7 +85,7 @@ export default function Contact() {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: "#0D74FF" }}
+                        _hover={{ bg: "white" }}
                         icon={
                           <FaLinkedin
                             size="28px"
@@ -128,7 +128,7 @@ export default function Contact() {
                           _hover={{
                             borderRadius: "gray.300",
                           }}
-                          placeholder="Send a message"
+                          placeholder="Write a message"
                         />
                       </FormControl>
                       <FormControl id="name" float="right">
@@ -138,7 +138,7 @@ export default function Contact() {
                           color="white"
                           _hover={{}}
                         >
-                          <p> Send Message</p>
+                          <p> Send a Message</p>
                         </Button>
                       </FormControl>
                     </VStack>

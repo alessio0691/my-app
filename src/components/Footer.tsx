@@ -65,7 +65,7 @@ import {
             <SocialButton label={'Instagram'} href={'https://www.instagram.com/krisvanco/?utm_medium=copy_link'}>
               <FaInstagram />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'https://www.instagram.com/krisvanco/?utm_medium=copy_link'}>
+            <SocialButton label={'Mail'} href="mailto:kris.vancova@gmail.com">
               <FaMailBulk />
             </SocialButton>
           </Stack>

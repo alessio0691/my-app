@@ -64,22 +64,24 @@ function AboutPage() {
             colEnd={{ md: 7 }}
             paddingTop={{ base: "1em", md: "1em" }}
           >
-            <Box>
+            <Box paddingBottom={9}>
               <Image
-                width={"130px"}
+                width={"150px"}
                 src="https://i.postimg.cc/vm3tpzZL/about-1-3158bc46.jpg"
               />
             </Box>
-            <Box display={"flex"} justifyContent={"end"}>
+            <Box paddingBottom={9} display={"flex"} justifyContent={"end"}>
               <Image
-                width={"130px"}
-                src="https://i.postimg.cc/vm3tpzZL/about-1-3158bc46.jpg"
+                width={"150px"}
+                src="https://i.postimg.cc/XJM5h902/about-2-e023ff6e.jpg
+               "
               />
             </Box>
             <Box>
               <Image
-                width={"130px"}
-                src="https://i.postimg.cc/vm3tpzZL/about-1-3158bc46.jpg"
+                width={"150px"}
+                src="                https://i.postimg.cc/0jnJb3K3/about-3-f22cb7dc.jpg
+                "
               />
             </Box>
           </GridItem>

@@ -14,6 +14,7 @@ import HomePage from "./pages/HomePage"
 import ProjectTwo from "./pages/Project2"
 import ProjectOne from "./pages/ProjectOne"
 import ProjectThree from "./pages/ProjectThree"
+import { Work } from "./pages/WorkPage"
 
 
 
@@ -22,11 +23,12 @@ export const App = () => (
     <Layout>
       <Routes>
         <Route   path="/" element={<HomePage/>} />
-        <Route path="/work" element={<ProjectPage />} />
+        <Route path="/project" element={<ProjectPage />} />
         <Route path="/work/commerce" element={<Ecommerce />} />
-        <Route path="/work/project2" element={<ProjectTwo />} />
-        <Route path="/work/project1" element={<ProjectOne />} />
-        <Route path="/work/project3" element={<ProjectThree />} />
+        <Route path="/work" element={<Work/>} />
+        <Route path="/project/2" element={<ProjectTwo />} />
+        <Route path="/project/1" element={<ProjectOne />} />
+        <Route path="/project/3" element={<ProjectThree />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

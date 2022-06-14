@@ -40,27 +40,30 @@ function HomePage() {
           </Box> */}
 
       <Box display={{ base: "none", md: "block" }}>
-        <Grid templateColumns={"repeat(16, 1fr)"} gap={"20px"}>
-          <GridItem colStart={2} colEnd={11}>
-            <Image src="https://i.postimg.cc/pTXNQqpw/16.jpg" />
-            <h2 style={{ textAlign: "center", marginRight: "250px" }}>
+        <Grid templateColumns={"repeat(16, 1fr)"} gap={"10px"}>
+          <GridItem colStart={2} colEnd={8}>
+            <Image paddingTop={2}  src="https://i.postimg.cc/pTXNQqpw/16.jpg" />
+            <h2 style={{ textAlign: "center" }}>
               Life illusion
             </h2>
           </GridItem>
-          <GridItem colStart={11} colEnd={14}>
-            <AspectRatio ratio={2 / 3}>
-              <Image
+          <GridItem colStart={12} colEnd={15}>
+            <Box max-width={{ md: "260px", lg: "300px" }}>
+            <Image
+                     paddingTop={2}       
                 paddingBottom={5}
                 src="https://i.postimg.cc/QdpvRR5L/9.jpg"
-              />
-            </AspectRatio>
-            <AspectRatio ratio={2 / 3}>
-              <Image src="https://i.postimg.cc/QdpvRR5L/9.jpg" />
-            </AspectRatio>
+              /></Box>
+            <Image max-width={{ md: "200px", lg: "300px" }}
+              max-height={{ md: "200px", lg: "300px" }}
+              
+              
+src="https://i.postimg.cc/rsKv3sGg/10.jpg" />
           </GridItem>
           <GridItem colStart={4} colEnd={7}>
             <Image
-              paddingBottom={5}
+              
+              paddingBottom={4}
               width={{ md: "240px", lg: "340px" }}
               src="https://i.postimg.cc/wBFZ6bJk/img-9.jpg"
             />
@@ -72,20 +75,6 @@ function HomePage() {
           <GridItem colStart={10} colEnd={16}>
             <Image src="https://i.postimg.cc/Kc9G9JHB/img-1.jpg" />
             <h2 style={{ textAlign: "center" }}>Modernity meets rural girl</h2>
-          </GridItem>
-          <GridItem colStart={2} colEnd={11}>
-            <Image src="https://i.postimg.cc/1tSbKf7Z/POLIMODA-TREVES-10-06-21-1593-840.jpg" />
-            <h2 style={{ textAlign: "center", marginRight: "250px" }}>
-              Vanity
-            </h2>
-          </GridItem>
-          <GridItem colStart={11} colEnd={14}>
-            <Image
-              paddingBottom={5}
-              width={{ md: "240px", lg: "340px" }}
-              src="https://i.postimg.cc/cJdPGNKH/img-13.jpg"
-            />
-            <Image src="https://i.postimg.cc/hP4cB3rq/Post-per-Instagram-1.png" />
           </GridItem>
         </Grid>
       </Box>

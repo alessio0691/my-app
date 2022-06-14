@@ -3,7 +3,7 @@ import React from 'react'
 
 function ProjectTwo() {
     const foto = [
-        "https://i.postimg.cc/bNGhFC38/1.jpg",
+"https://i.postimg.cc/bNGhFC38/1.jpg",
 "https://i.postimg.cc/rsKv3sGg/10.jpg",
 "https://i.postimg.cc/pTXNQqpw/16.jpg",
 "https://i.postimg.cc/Twkztgbp/17.jpg",

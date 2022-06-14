@@ -14,22 +14,22 @@ export const Navbar = () => {
           <HStack justify="space-between" display="flex">
           <Box>
             <NavLink    style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "#146194 !important" : "black !important",
             })} to="/"><p>Home</p> </NavLink>
             </Box>
             <Box>
             <NavLink  style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "black" : "black !important"
             })} to="/work"><p>Work</p> </NavLink>
             </Box>
             <Box>
             <NavLink style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "black" : "#146194"
             })} to="/about"><p>About</p> </NavLink>
             </Box>
             <Box>
             <NavLink style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "black" : "black !important"
             })}to="/contact"><p>Contact</p> </NavLink>
             </Box>
         </HStack>
@@ -52,22 +52,22 @@ export const Navbar = () => {
             <Stack spacing={8} marginTop={10} display="flex">
           <Box>
             <NavLink style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "#560D0D" : "#FFFFFF"
             })} to="/"><p>Home</p> </NavLink>
             </Box>
             <Box>
             <NavLink style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "#560D0D" : "#FFFFFF"
             })} to="/work"><p>Work</p> </NavLink>
             </Box>
             <Box>
             <NavLink style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "#560D0D" : "#FFFFFF"
             })} to="/about"><p>About</p> </NavLink>
             </Box>
             <Box>
             <NavLink style={isActive => ({
-              color: isActive ? "#146194" : "black"
+              color: isActive ? "#560D0D" : "#FFFFFF"
             })} to="/contact"><p>Contact</p> </NavLink>
             </Box>
         </Stack>

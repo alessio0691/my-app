@@ -7,7 +7,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+  import { FaInstagram, FaLinkedin  , FaMailBulk} from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const SocialButton = ({
@@ -64,6 +64,9 @@ import {
             </SocialButton>
             <SocialButton label={'Instagram'} href={'https://www.instagram.com/krisvanco/?utm_medium=copy_link'}>
               <FaInstagram />
+            </SocialButton>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/krisvanco/?utm_medium=copy_link'}>
+              <FaMailBulk />
             </SocialButton>
           </Stack>
         </Container>
